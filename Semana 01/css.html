@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        color: red;
+        width: 25%;
+      }
+      .clase {
+        animation: rotate 3s infinite;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .clase:hover {
+        color: blue;
+      }
+      .clase2 {
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(2.2);
+        }
+      }
+      .clase3 {
+        animation: slideIn 2s infinite;
+      }
+      @keyframes slideIn {
+        0% {
+          transform: translateX(-50%);
+        }
+        50% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(50%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table table-bordered table-striped table-responsive">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Telelfono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Luis`</td>
+          <td>Llerena</td>
+          <td>0987654321</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
