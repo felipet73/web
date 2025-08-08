@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 01\\mvcasp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 01\\mvcasp\\models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|solutionrelative:models\\provincia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 01\\mvcasp\\controllers\\paisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|solutionrelative:controllers\\paisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 01\\mvcasp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFBCA8AD-3FAC-424E-8C27-6A1D8D346CAE}|MVCASP.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 01\\mvcasp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProvinciasController.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\Controllers\\ProvinciasController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProvinciasController.cs",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PaisesController.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\Controllers\\PaisesController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaisesController.cs",
@@ -122,19 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-01T01:01:48.562Z"
+              "WhenOpened": "2025-08-01T01:01:48.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Provincia.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\Models\\Provincia.cs",
               "RelativeDocumentMoniker": "Models\\Provincia.cs",
@@ -147,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pais.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 01\\MVCASP\\Models\\Pais.cs",
               "RelativeDocumentMoniker": "Models\\Pais.cs",
@@ -155,8 +156,7 @@
               "RelativeToolTip": "Models\\Pais.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T00:51:49.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T00:51:49.568Z"
             }
           ]
         }

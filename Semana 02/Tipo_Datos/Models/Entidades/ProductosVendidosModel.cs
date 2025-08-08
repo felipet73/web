@@ -24,8 +24,5 @@ namespace Tipo_Datos.Models.Entidades
         [ForeignKey("VentasModel")]
         public int VentasModelId { get; set; }
         public VentasModel VentasModel { get; set; }
-
-
-
     }
 }

@@ -8,9 +8,9 @@
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        [Column(TypeName ="datatime2")]
+        [Column(TypeName ="datetime2")]
         public DateTime Create_At { get; set; }
-        [Column(TypeName = "datatime2")]
+        [Column(TypeName = "datetime2")]
         public DateTime Update_At { get; set; }
         public bool isDelete { get; set; }
     }
