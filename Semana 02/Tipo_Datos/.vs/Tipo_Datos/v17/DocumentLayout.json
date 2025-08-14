@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\models\\entidades\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:models\\entidades\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\models\\entidades\\productosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:models\\entidades\\productosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\tipo_datos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:tipo_datos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\controllers\\configuracionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:controllers\\configuracionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\clientes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\clientes\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\models\\entidades\\base\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:models\\entidades\\base\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\semana 02\\tipo_datos\\models\\entidades\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:models\\entidades\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +74,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientesModel.cs",
-              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ClientesModel.cs",
-              "RelativeDocumentMoniker": "Models\\Entidades\\ClientesModel.cs",
-              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ClientesModel.cs",
-              "RelativeToolTip": "Models\\Entidades\\ClientesModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T01:37:24.249Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T16:26:31.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Nuevo.cshtml",
-              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Nuevo.cshtml",
-              "RelativeDocumentMoniker": "Views\\Clientes\\Nuevo.cshtml",
-              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Nuevo.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\Nuevo.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAABFAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Edit.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T01:27:35.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T00:57:36.019Z",
+              "WhenOpened": "2025-08-09T16:26:06.826Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Create.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T16:25:55.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductosModel.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ProductosModel.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\ProductosModel.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ProductosModel.cs",
+              "RelativeToolTip": "Models\\Entidades\\ProductosModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:24:02.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T16:21:42.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfiguracionesController.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ConfiguracionesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConfiguracionesController.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ConfiguracionesController.cs",
+              "RelativeToolTip": "Controllers\\ConfiguracionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:21:29.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductosController.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwFgAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:20:42.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T16:19:58.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Eliminar.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Eliminar.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Eliminar.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T16:06:23.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Index.cshtml",
               "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-08T00:48:25.71Z",
+              "WhenOpened": "2025-08-09T15:35:23.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Editar.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Editar.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T15:27:24.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T00:46:43.49Z",
+              "WhenOpened": "2025-08-09T15:04:54.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Nuevo.cshtml",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Nuevo.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Nuevo.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T15:02:48.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tipo_Datos",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
+              "RelativeDocumentMoniker": "Tipo_Datos.csproj",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
+              "RelativeToolTip": "Tipo_Datos.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-09T15:01:48.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\Base\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\Base\\BaseModel.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\Base\\BaseModel.cs",
+              "RelativeToolTip": "Models\\Entidades\\Base\\BaseModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T15:01:01.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClientesModel.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ClientesModel.cs",
+              "RelativeDocumentMoniker": "Models\\Entidades\\ClientesModel.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Semana 02\\Tipo_Datos\\Models\\Entidades\\ClientesModel.cs",
+              "RelativeToolTip": "Models\\Entidades\\ClientesModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T01:37:24.249Z",
               "EditorCaption": ""
             }
           ]

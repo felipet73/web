@@ -8,10 +8,10 @@
     public class ClientesModel:BaseModel
     {
         [Required(ErrorMessage ="Cammpo Requerido")]
-        public string Nombres { get; set; }
+        public string Nombres { get; set; } 
         [Required(ErrorMessage = "Cammpo Requerido")]
         [EmailAddress]
-        public string Email { get; set; }
+        public string Email { get; set; } 
         [Required(ErrorMessage = "Cammpo Requerido")]
         public string Telefono { get; set; }
         [Required(ErrorMessage = "Cammpo Requerido")]
