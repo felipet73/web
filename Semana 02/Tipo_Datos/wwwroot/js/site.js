@@ -35,7 +35,7 @@ var Lista_Productos = () => {
     $.get(`/api/ProductosApi`,async (listaproductos) => {
         html = "";
         $.each(listaproductos, (index, producto) => {
-            html += `<tr>
+            html += `<tr >
                 <td> ${producto.nombre} </td>
                 <td> ${producto.precio} </td>
                 <td> <input type='number' min="1" value="0" id="qty_${producto.id}"/> </td>
@@ -55,16 +55,103 @@ var cargarproducto = (producto) => {
     const id = producto.dataset.id
     const nombre = producto.dataset.nombre
     const precio = parseFloat(producto.dataset.precio)
-    const cantidad = document.getElementById(`qty_${id}`).value
+    const cantidad_Modal = parseInt(document.getElementById(`qty_${id}`).value)
+    if (cantidad_Modal <= 0 || isNaN(cantidad_Modal)) {
+        alert("Inngrese una cantidad del producto valida")
+        return;
+    }
+    const $tbody = $("#productosTable tbody")
+    let $fila = $tbody.find(`tr[data-id="${id}"]`)
+    if ($fila.length) {
+        const $cantidadInput = $fila.find('input[name="Cantidad[]"]')
+        const cantidadActual = parseInt($cantidadInput.val()) || 0
+        const nuevaCantidad = cantidadActual + cantidad_Modal
+        $cantidadInput.val(nuevaCantidad)
+        const nuevoMonto = precio * nuevaCantidad 
+        $fila.find('input[name="Monto[]]"').val(nuevoMonto.toFixed(2))
+    } else {
+        const monto = precio * cantidad_Modal
+        const filaHtml = `
+        <tr data-id="${id}">
+            <td>${nombre}</td>
+            <td><input type="number" name="Precio[]" step="0.01" min="0" value="${precio}"></td>
+            <td><input type="number" name="Cantidad[]" min="1" value="${cantidad_Modal}"></td>
+            <td><input type="number" name="Monto[]" step="0.01" min="0" readonly value="${monto}"></td>
+            <td><button type="button" class="btn-remove">X</button></td>
+        </tr>
+        `;
+        $tbody.append(filaHtml)
+    }
+}
+$(document).on("click", ".btn-remove", function (){
+    $(this).closest("tr").remove()
+})
 
+var crear_venta = async () => {
 
-    //const tabla = document.getElementById("productosTable")
-   // const tbody = tabla.querySelector('tbody')
-   // const btnAdd = document.getElementById("btnAgregarFila")
-    //const subTotal = document.getElementById("Sub_total")
+    const clienteId = parseInt(document.getElementById("ClientesModelId").value) || 0
+    const metodo_pago = document.getElementById("metodoPago").value || ""
 
+    if (clienteId == 0 || !clienteId) {
+        alert("seleccion un cliente")
+        return
+    }
 
+    const items = []
+    let subTotal = 0
 
+    $("#productosTable tbody").each(function () {
+        const $tr = $(this)
+        const id = parent($tr.data("id"))
+        if (!id) {
+            alert("Ocurrio un error al guardar")
+            return
+        }
+        const nombre = $tr.find("td").eq(0).text().trim()
+        const precio = parseFloat($tr.find('input[name="Precio[]"]').val() || 0)
+        const cantidad = parseFloat($tr.find('input[name="Cantidad[]"]').val() || 0)
+        const monto = parseFloat($tr.find('input[name="Monto[]"]').val() || 0)
 
+        if (cantidad > 0 && precio > 0) {
+            items.push({
+                ProductoId: id,
+                Nombre: nombre,
+                Precio: precio,
+                Cantidad: cantidad,
+                Monto: parseFloat((cantidad * precio).toFixed(2))
+            })
+            subTotal += cantidad * precio
+        }
+    })
+    subTotal = parseFloat(subTotal.toFixed(2))
+    const total = subTotal   //falta el descuento
+    const venta = {
+        Fecha_venta : new Date().toISOString(),
+        codigo_venta : "",
+        Notas: "----",
+        SubTotal : subTotal,
+        Estado_Venta : "COMPLETA",
+        Descuento : 0,
+        Total_Venta: total,
+        Metodo_Pago : metodo_pago,
+        ClientesModelId : clienteId,
+        Productos_vendidos : items
+    }
 
+    try {
+        const respusta = await fetch("/api/ventasAPI", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(venta)
+        });
+        if (!respusta.ok) {
+            const error = await respusta.text()
+            throw new Error(error || "No se pudo realizar la venta")
+        }
+        const creada = await respusta.json()
+        alert("Venta creada exitoddamente.")
+    } catch (e) {
+        console.log(e)
+        alert("Error al guardar la venta" + e.message)
+    }
 }

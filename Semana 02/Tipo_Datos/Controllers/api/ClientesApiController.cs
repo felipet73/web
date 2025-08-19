@@ -25,7 +25,22 @@ namespace Tipo_Datos.Controllers.api
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClientesModel>>> GetClientes()
         {
-            return await _context.Clientes.ToListAsync();
+
+            var listaClientes = await _context.Clientes.ToListAsync();
+
+            listaClientes.Insert(0, new ClientesModel {
+                Id= 0,
+                Nombres = "Seleccione un cliente",
+                Cedula_RUC  = string.Empty,
+                Create_At = DateTime.Now,
+                Direccion = string.Empty,
+                Email = string.Empty,
+                isDelete = false,
+                Telefono = string.Empty,
+                Update_At = DateTime.Now,
+            });
+
+            return listaClientes;
         }
 
         // GET: api/ClientesApi/5

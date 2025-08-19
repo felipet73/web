@@ -14,7 +14,19 @@ namespace Tipo_Datos.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _dbContext.Clientes.ToListAsync());
+            var listaClientes = await _dbContext.Clientes.ToListAsync();
+            listaClientes.Insert(0, new ClientesModel {
+                Id= 0,
+                Nombres = "Seleccione un cliente",
+                Cedula_RUC  = string.Empty,
+                Create_At = DateTime.Now,
+                Direccion = string.Empty,
+                Email = string.Empty,
+                isDelete = false,
+                Telefono = string.Empty,
+                Update_At = DateTime.Now,
+            });
+            return View(listaClientes);
         }
 
         public IActionResult Nuevo() {
