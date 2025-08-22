@@ -100,9 +100,9 @@ var crear_venta = async () => {
     const items = []
     let subTotal = 0
 
-    $("#productosTable tbody").each(function () {
+    $("#productosTable tbody tr[data-id]").each(function () {
         const $tr = $(this)
-        const id = parent($tr.data("id"))
+        const id = parseInt($tr.data("id"),10)
         if (!id) {
             alert("Ocurrio un error al guardar")
             return
@@ -114,7 +114,7 @@ var crear_venta = async () => {
 
         if (cantidad > 0 && precio > 0) {
             items.push({
-                ProductoId: id,
+                ProductosModelId: id,
                 Nombre: nombre,
                 Precio: precio,
                 Cantidad: cantidad,
@@ -144,14 +144,28 @@ var crear_venta = async () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(venta)
         });
-        if (!respusta.ok) {
+        /*if (!respusta.ok) {
             const error = await respusta.text()
             throw new Error(error || "No se pudo realizar la venta")
-        }
+        }*/
         const creada = await respusta.json()
+        console.log(creada)
         alert("Venta creada exitoddamente.")
+        await imprimri_factura()
+
+
+        $("#productosTable tbody").innerHTML("");
     } catch (e) {
-        console.log(e)
+        console.log(JSON.stringify(e))
         alert("Error al guardar la venta" + e.message)
     }
+}
+
+var imprimri_factura = () => {
+    var contenido = document.getElementById("imprimir").innerHTML;
+        var contenidoOriginal = document.body.innerHTML;
+        document.body.innerHTML = contenido;
+        window.print();
+        document.body.innerHTML = contenidoOriginal;
+    
 }

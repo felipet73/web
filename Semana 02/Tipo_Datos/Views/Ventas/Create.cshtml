@@ -8,8 +8,8 @@
 
 <div class="form-container">
     <h2>Registro de Venta</h2>
-    <form id="ventaForm">
-        <!-- Selección de cliente -->
+
+    <div id="imprimir">        <!-- Selección de cliente -->
         <table class="table-responsive table-bordered">
             <tr>
                 <td>
@@ -82,24 +82,20 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
-                    <td><input type="number" name="Precio[]" step="0.01" min="0"></td>
-                    <td><input type="number" name="Cantidad[]" min="1"></td>
-                    <td><input type="number" name="Monto[]" step="0.01" min="0" readonly></td>
-                    <td><button type="button" class="btn-remove">X</button></td>
-                </tr>
+               
             </tbody>
         </table>
+
+    </div>
         <button type="button" id="addProduct" class="btn-add" 
         data-bs-toggle="modal" data-bs-target="#modalProductos"
         onclick="Lista_Productos()">+ Agregar Producto</button>
 
         <!-- Botón de enviar -->
         <div class="form-group">
-            <button type="submit" class="btn-submit">Guardar Venta</button>
+        <button onclick="crear_venta()" class="btn-submit">Guardar Venta</button>
         </div>
-    </form>
+   
 </div>
 
 

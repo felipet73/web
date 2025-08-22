@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using Tipo_Datos.Models.Entidades.Base;
 
 namespace Tipo_Datos.Models.Entidades
@@ -23,6 +24,7 @@ namespace Tipo_Datos.Models.Entidades
         [Display(Name ="Ventas")]
         [ForeignKey("VentasModel")]
         public int VentasModelId { get; set; }
+        [JsonIgnore]
         public VentasModel VentasModel { get; set; }
     }
 }
