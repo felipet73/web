@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Tipo_Datos.Data;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 var cn = builder.Configuration.GetConnectionString("cn") 
@@ -7,7 +8,19 @@ var cn = builder.Configuration.GetConnectionString("cn")
 
 builder.Services.AddDbContext<DatosDbContext>(opciones => opciones.UseSqlServer(cn));
 
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<Tipo_DatosContext>();
 
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(
+    op => {
+        op.SignIn.RequireConfirmedAccount = false;
+        op.Password.RequiredLength = 3;
+        op.Password.RequireNonAlphanumeric = true;
+        op.Password.RequireUppercase = true;    
+        op.Password.RequireLowercase = true;
+        //LuisLlerena_2025
+    }
+    ).AddEntityFrameworkStores<Tipo_Datos.Data.DatosDbContext>()
+    .AddDefaultTokenProviders();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -32,5 +45,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapRazorPages();
 
 app.Run();
