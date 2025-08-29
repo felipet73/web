@@ -1,0 +1,54 @@
+<div class="container-md">
+  <div class="row">
+    <div class="header">
+      <h1><h1>Lista de Clientes</h1></h1>
+    </div>
+  </div>
+  <div class="row">
+    <table class="table table-responsive table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Nombres</th>
+          <th>Apellidos</th>
+          <th>Direccion</th>
+          <th>Telefono</th>
+          <th>Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cliente of lista_clientes$">
+          <td>#</td>
+          <td>{{ cliente.nombres}}</td>
+          <td>{{ cliente.apellidos}}</td>
+          <td>{{ cliente.direccion}}</td>
+          <td>{{ cliente.telefono}}</td>
+          <td>
+            <button class="btn btn-outline-success">Editar</button>
+            <button class="btn btn-outline-danger">Eliminar</button>
+          </td>
+
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!--
+
+componente
+    css   *
+    html  *
+    ts    
+ 
+Interfase *
+servicio  *
+
+
+
+
+
+
+-->

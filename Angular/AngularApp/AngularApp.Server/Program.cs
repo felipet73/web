@@ -1,8 +1,9 @@
 using AngularApp.Server.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+const string DevCors = "DevCors";
 // Add services to the container.
 
 var conexion = builder.Configuration.GetConnectionString("cn")
@@ -17,6 +18,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(opciones => {
+    opciones.AddPolicy("AllowAll", policy => {
+        policy
+        .AllowAnyHeader()
+        .AllowAnyOrigin()
+        .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
 app.UseDefaultFiles();
@@ -28,7 +38,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(DevCors);
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
