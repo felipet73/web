@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-const string DevCors = "DevCors";
-// Add services to the container.
+
 
 var conexion = builder.Configuration.GetConnectionString("cn")
     ?? throw new InvalidOperationException("No existe la base de datos");
@@ -18,13 +17,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddCors(opciones => {
-    opciones.AddPolicy("AllowAll", policy => {
-        policy
-        .AllowAnyHeader()
-        .AllowAnyOrigin()
-        .AllowAnyMethod();
-    });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200") // Especifica los orígenes permitidos
+                   .AllowAnyHeader()
+                   .AllowAnyMethod();
+        });
 });
 
 var app = builder.Build();
@@ -38,7 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors(DevCors);
+app.UseCors("MyPolicy");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

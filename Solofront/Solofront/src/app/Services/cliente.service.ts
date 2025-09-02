@@ -20,4 +20,12 @@ export class ClienteService {
       new Error(msg);
     });
   }
+
+  guardarCliente(cliente:ICliente): Observable<ICliente> {
+    
+    return this.http.post<ICliente>(this.rutaAPI, cliente).pipe(
+      catchError(this.manejoErrores)
+    )
+  
+  }
 }

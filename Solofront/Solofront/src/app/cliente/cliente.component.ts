@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-cliente',
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterLink],
   templateUrl: './cliente.component.html',
   styleUrl: './cliente.component.css',
 })
@@ -21,10 +21,8 @@ export class ClienteComponent {
     this.cargaTabla();
   }
   cargaTabla() {
-    this.clienteServicio.todos().subscribe(
-      (clientes) => {
+    this.clienteServicio.todos().subscribe((clientes) => {
       this.lista_clientes$ = clientes;
-    }
-    );
+    });
   }
 }
