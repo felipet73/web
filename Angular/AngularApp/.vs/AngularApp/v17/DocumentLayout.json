@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\model\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\model\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\model\\usuariosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\model\\usuariosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\angularapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\angularapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\model\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\model\\clientesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\angularapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\angularapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|solutionrelative:angularapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E626AE7-72D9-4121-8F1A-2FFD730E3172}|AngularApp.Server\\AngularApp.Server.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\angular\\angularapp\\angularapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -38,24 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "AngularApp.Server\\Controllers\\UsuariosController.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "AngularApp.Server\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAUwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:33:12.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsuariosModel.cs",
+              "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Model\\UsuariosModel.cs",
+              "RelativeDocumentMoniker": "AngularApp.Server\\Model\\UsuariosModel.cs",
+              "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Model\\UsuariosModel.cs",
+              "RelativeToolTip": "AngularApp.Server\\Model\\UsuariosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T01:32:05.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "AngularApp.Server\\Controllers\\ClientesController.cs",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "AngularApp.Server\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAEwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T00:49:53.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "20250826004709_clientes.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Migrations\\20250826004709_clientes.cs",
               "RelativeDocumentMoniker": "AngularApp.Server\\Migrations\\20250826004709_clientes.cs",
@@ -67,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AngularApp.Server.csproj",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\AngularApp.Server.csproj",
               "RelativeDocumentMoniker": "AngularApp.Server\\AngularApp.Server.csproj",
@@ -75,24 +109,25 @@
               "RelativeToolTip": "AngularApp.Server\\AngularApp.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-26T00:42:36.554Z"
+              "WhenOpened": "2025-08-26T00:42:36.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ClientesModel.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Model\\ClientesModel.cs",
               "RelativeDocumentMoniker": "AngularApp.Server\\Model\\ClientesModel.cs",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Model\\ClientesModel.cs",
               "RelativeToolTip": "AngularApp.Server\\Model\\ClientesModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T00:41:28.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ServerDbContext.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Data\\ServerDbContext.cs",
               "RelativeDocumentMoniker": "AngularApp.Server\\Data\\ServerDbContext.cs",
@@ -100,11 +135,12 @@
               "RelativeToolTip": "AngularApp.Server\\Data\\ServerDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T00:32:08.669Z"
+              "WhenOpened": "2025-08-26T00:32:08.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\Program.cs",
               "RelativeDocumentMoniker": "AngularApp.Server\\Program.cs",
@@ -112,12 +148,11 @@
               "RelativeToolTip": "AngularApp.Server\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T00:29:39.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T00:29:39.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\Angular\\AngularApp\\AngularApp.Server\\appsettings.json",
               "RelativeDocumentMoniker": "AngularApp.Server\\appsettings.json",

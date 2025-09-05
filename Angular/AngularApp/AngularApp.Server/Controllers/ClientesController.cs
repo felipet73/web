@@ -49,7 +49,7 @@ namespace AngularApp.Server.Controllers
         {
             if (id != clientesModel.Id)
             {
-                return BadRequest();
+                return BadRequest(); //500
             }
 
             _context.Entry(clientesModel).State = EntityState.Modified;
@@ -62,15 +62,15 @@ namespace AngularApp.Server.Controllers
             {
                 if (!ClientesModelExists(id))
                 {
-                    return NotFound();
+                    return NotFound(); //404
                 }
                 else
                 {
-                    throw;
+                    throw; // 500
                 }
             }
 
-            return NoContent();
+            return Ok(clientesModel);  //200
         }
 
         // POST: api/Clientes
@@ -97,7 +97,7 @@ namespace AngularApp.Server.Controllers
             _context.Clientes.Remove(clientesModel);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(id);
         }
 
         private bool ClientesModelExists(int id)

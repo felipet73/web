@@ -17,7 +17,7 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'editar-cliente/:id',
+    path: 'editar-cliente/:parametro',
     component: NuevoClienteComponent,
     pathMatch: 'full',
   },

@@ -6,7 +6,7 @@
     correo: string
 -->
 <div class="container">
-  <h1>Registro de nuevo cliente</h1>
+  <h1>{{ titulo_formulario }}</h1>
   <form [formGroup]="clienteforms" (ngSubmit)="guardarCliente()" novalidate>
     <div class="form-group">
       <label for="nombres">Nombres</label>
