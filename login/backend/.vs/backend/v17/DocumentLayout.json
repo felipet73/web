@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BD96457-26F2-4571-8538-658317E450FA}|backend.csproj|z:\\uniandes\\estudiantes\\aplicaciones web\\ms2025\\login\\backend\\data\\logindbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "loginViewModel.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\Models\\ViewModels\\loginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\loginViewModel.cs",
@@ -46,25 +46,24 @@
               "RelativeToolTip": "Models\\ViewModels\\loginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T00:27:13.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T00:27:13.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFgAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T00:16:16.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -72,12 +71,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-09T00:07:13.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T00:07:13.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T00:05:01.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T00:05:01.328Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Data\\LoginDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T00:00:02.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T00:00:02.95Z"
             },
             {
               "$type": "Document",
@@ -109,7 +105,7 @@
               "RelativeDocumentMoniker": "Models\\Usuarios.cs",
               "ToolTip": "Z:\\Uniandes\\Estudiantes\\Aplicaciones Web\\MS2025\\login\\backend\\Models\\Usuarios.cs",
               "RelativeToolTip": "Models\\Usuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T23:57:48.248Z",
               "EditorCaption": ""

@@ -84,13 +84,20 @@ namespace backend.Controllers
 
             return CreatedAtAction("GetUsuarios", new { id = usuarios.Id }, usuarios);
         }
-
+       
         [HttpPost("login")]
         public async Task<ActionResult<Usuarios>> login(loginViewModel viewmodellogin) {
 
             var usuario = await _context.Usuarios.Where(
-                u => u.email == viewmodellogin.email && u.contrasenia == viewmodellogin.contrasenia)
+                u => u.email == viewmodellogin.email && 
+                u.contrasenia == viewmodellogin.contrasenia  
+                && u.activo == true)
                 .FirstOrDefaultAsync();
+
+            if (usuario == null) {
+                return Unauthorized(new 
+                { mensaje = "El usuario o la contrasenia son incorrectos" });
+            }
 
             return usuario;
 
