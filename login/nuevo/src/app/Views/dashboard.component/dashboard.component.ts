@@ -20,6 +20,7 @@ export class DashboardComponent implements OnInit {
       this.lista_usaurio = lista;
     });
   }
+  
   imprimir() {
     const html = document.getElementById('area_imprimir')?.innerHTML;
     const ventana = window.open('', '', 'height=600, width=900');
